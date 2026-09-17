@@ -285,7 +285,7 @@ class App:
             self.panel(pygame.Rect(x, y, 64, 62), color, 14)
             self.arrow((x + 32, y + 31), direction,
                        WHITE if i == 7 else COLORS[direction], 32)
-        self.text("从一箭开始。", 869, 458, 15, MUTED, center=True)
+        self.text("从一箭开始。", 869, 477, 15, MUTED, center=True)
         self.text("选择你的节奏", 64, 535, 20, bold=True)
         self.text("3 个关卡  ·  每关 3 次机会  ·  所有关卡均可直接选择", 566, 540, 14, MUTED)
         for key, rect, label, primary in self.button_specs():
@@ -428,7 +428,7 @@ class App:
     def run(self, max_frames=None):
         frames = 0
         while self.running:
-            dt = min(self.clock.tick(60) / 1000.0, .05)
+            dt = self.clock.tick(60) / 1000.0
             for event in pygame.event.get():
                 self.handle_event(event)
             self.update(dt)
