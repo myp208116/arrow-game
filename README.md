@@ -23,10 +23,10 @@ Python + pygame-ce 编写的单格箭头解谜游戏。
 
 ## 开发环境
 
-- 实际验证：Windows、Python 3.14.5、pygame-ce 2.5.8。
+- 验证：Windows、Python 3.14.5、pygame-ce 2.5.8。
 - 建议 Python 3.12—3.14。规则与状态测试采用标准库 unittest。
 - 游戏运行只需要 pygame-ce；Pillow 用于导出 GIF，PyInstaller 用于打包，均为可选开发依赖。
-- Windows 自动使用系统微软雅黑。macOS/Linux 需安装可用的中文字体，如 Noto Sans CJK；这些平台未做实机验证。
+- Windows 自动使用系统微软雅黑。
 - 无网络请求、无 API Key、无外部图片或音频资源。关卡数据随代码提供。
 
 ## 安装与运行
@@ -44,12 +44,6 @@ Windows：
 .venv\Scripts\python.exe main.py
 ```
 
-macOS/Linux（未实机验证）：
-
-```bash
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python main.py
-```
 
 Windows 用户也可以在安装依赖后双击 `start.cmd`。若项目中存在 `dist/ArrowGame.exe`，启动器会优先运行该独立程序；否则运行 Python 版本。源代码仓库不存放二进制程序。
 
