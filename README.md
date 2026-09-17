@@ -123,8 +123,3 @@ docs/                   博客稿、开发记录、测试结果和实际运行�
 
 参考资料：[原作业](https://edu.cnblogs.com/campus/fzu/202601SofwareEngineering/homework/16717)、[pygame-ce 官方文档](https://pyga.me/docs/)、[Python unittest 官方文档](https://docs.python.org/3/library/unittest.html)。
 
-## 提交前
-
-提交者仍需亲自试玩每一关，填写真实 PSP 耗时并核对博客心得。自动化测试不能代替原题要求的本人试玩。详细清单见 [submission.md](docs/submission.md)。
-
-源代码、文档、截图和 GIF 已上传。由于本机 Git 网络不可用，本次通过 GitHub 接口按实际开发阶段导入；各阶段代码树均与原本地提交一致，编号与时间对照见 [publication.md](docs/publication.md)。
