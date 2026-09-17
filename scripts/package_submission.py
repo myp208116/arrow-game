@@ -20,8 +20,9 @@ notice = """一箭又一箭 — 杜玉鹤 162404109
 提交清单：docs/submission.md。
 关键代码讲解：docs/code-guide.md。
 
-尚需本人完成：三关实际试玩、PSP 实际耗时、心得核对、GitHub 上传和博客发布提交。
-当前 GitHub 连接没有目标仓库写入权限，包内附有全部本地提交历史。
+GitHub 已上传：https://github.com/myp208116/arrow-game
+尚需本人完成：三关实际试玩、PSP 实际耗时、心得核对和博客发布提交。
+包内附有线上同步历史及原始本地开发历史，编号对应见 docs/publication.md。
 
 恢复 Git 历史（在能运行 git 的终端）：
 git clone arrow-game.bundle arrow-game
