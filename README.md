@@ -2,9 +2,7 @@
 
 > 顺着方向，找到出口。
 
-Python + pygame-ce 编写的单格箭头解谜游戏。作者：杜玉鹤（162404109）。
-福州大学 202601 软件工程第二次个人作业。
-
+Python + pygame-ce 编写的单格箭头解谜游戏。
 ![游戏开始界面](docs/images/01-start.png)
 
 ## 游戏简介
@@ -98,15 +96,6 @@ docs/                   博客稿、开发记录、测试结果和实际运行�
 - [机器可读测试结果](docs/test-report.json)
 - [原始测试输出](docs/test-output.txt)
 
-需要重做截图/GIF 或打包时：
-
-```powershell
-.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
-.venv\Scripts\python.exe scripts\capture_demo.py
-.venv\Scripts\python.exe -m PyInstaller --noconfirm --clean --onefile --windowed --name ArrowGame --add-data "arrow_game/levels.json;arrow_game" main.py
-```
-
-可执行文件输出到 `dist/ArrowGame.exe`。`main.py --smoke-test` 或 `ArrowGame.exe --smoke-test` 可进行离屏启动检查。
 
 ## 展示
 
