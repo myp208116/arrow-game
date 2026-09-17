@@ -1,0 +1,8 @@
+{
+  "tested_at": "2026-09-17T14:35:00.8296633+08:00",
+  "executable": "dist/ArrowGame.exe",
+  "size_bytes": 16535100,
+  "sha256": "795FD6837BAEDA329DFEEBEE2BA32D7ECFBEEF0C8BE50A1A229106F69AB09C90",
+  "smoke_exit_code": 0,
+  "method": "Frozen executable startup and level loading with SDL dummy display"
+}

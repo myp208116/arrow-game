@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-17T14:31:53+08:00",
+  "python": "3.14.5",
+  "platform": "Windows",
+  "pygame-ce": "2.5.8",
+  "tests_run": 23,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "method": "unittest + real Pygame mouse-event handlers; SDL dummy display",
+  "human_playtest": "not yet recorded"
+}

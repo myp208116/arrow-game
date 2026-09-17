@@ -1,0 +1,28 @@
+test_bad_data_is_rejected (test_core.RuleTests.test_bad_data_is_rejected) ... ok
+test_behind_and_other_rows_do_not_block (test_core.RuleTests.test_behind_and_other_rows_do_not_block) ... ok
+test_empty_and_outside_clicks_are_free (test_core.RuleTests.test_empty_and_outside_clicks_are_free) ... ok
+test_generator_is_solvable_and_reproducible (test_core.RuleTests.test_generator_is_solvable_and_reproducible) ... ok
+test_nearest_blocker_is_reported (test_core.RuleTests.test_nearest_blocker_is_reported) ... ok
+test_shipped_levels_have_four_directions (test_core.RuleTests.test_shipped_levels_have_four_directions) ... ok
+test_solver_detects_cycle_without_changing_board (test_core.RuleTests.test_solver_detects_cycle_without_changing_board) ... ok
+test_t01_clear_path_in_all_four_directions (test_core.RuleTests.test_t01_clear_path_in_all_four_directions) ... ok
+test_t02_blocker_at_distance_in_all_directions (test_core.RuleTests.test_t02_blocker_at_distance_in_all_directions) ... ok
+test_t03_all_outward_edges (test_core.RuleTests.test_t03_all_outward_edges) ... ok
+test_t04_complete_every_shipped_level (test_core.RuleTests.test_t04_complete_every_shipped_level) ... ok
+test_t05_loss_and_restart (test_core.RuleTests.test_t05_loss_and_restart) ... ok
+test_t06_restart_restores_exact_initial_layout (test_core.RuleTests.test_t06_restart_restores_exact_initial_layout) ... ok
+test_win_is_terminal_and_stars_include_hints (test_core.RuleTests.test_win_is_terminal_and_stars_include_hints) ... ok
+test_animation_locks_extra_clicks_and_commits_once (test_ui.InterfaceTests.test_animation_locks_extra_clicks_and_commits_once) ... ok
+test_collision_animation_and_fail_restart (test_ui.InterfaceTests.test_collision_animation_and_fail_restart) ... ok
+test_empty_grid_margin_and_right_click (test_ui.InterfaceTests.test_empty_grid_margin_and_right_click) ... ok
+test_escape_discards_old_animation (test_ui.InterfaceTests.test_escape_discards_old_animation) ... ok
+test_focus_pause_freezes_time_and_animation (test_ui.InterfaceTests.test_focus_pause_freezes_time_and_animation) ... ok
+test_full_campaign_through_mouse_events_and_buttons (test_ui.InterfaceTests.test_full_campaign_through_mouse_events_and_buttons) ... ok
+test_hint_points_to_legal_move_without_changing_board (test_ui.InterfaceTests.test_hint_points_to_legal_move_without_changing_board) ... ok
+test_menu_and_all_level_select_buttons (test_ui.InterfaceTests.test_menu_and_all_level_select_buttons) ... ok
+test_restart_during_animation_cancels_pending_move (test_ui.InterfaceTests.test_restart_during_animation_cancels_pending_move) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.210s
+
+OK
